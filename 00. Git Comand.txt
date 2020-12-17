@@ -1,8 +1,12 @@
+git config --global user.email "mudassirmukhtar4@gmail.com.com"
+git config --global user.name "mudassir060"
+
 …or create a new repository on the command line
 
 echo "# Python" >> README.md
 git init
-git add README.md
+git add -A
+git status
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mudassir060/Python.git
